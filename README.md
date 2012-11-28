@@ -8,9 +8,10 @@ Please use this as a way to communicate through your craft.
 
 # Setup
 
-1. Setup the project in your prefered IDE
-2. View index.html in the browser (/www)
-2. Open the psd file in /psd (/psd)
+1. Fork this repo and clone to your computer
+2. Setup the project in your prefered IDE
+3. View index.html in the browser (/www)
+4. Open the psd file in /psd (/psd)
 
 
 # Development
@@ -20,7 +21,8 @@ Please use this as a way to communicate through your craft.
 * Create an RSVP message onClick of 'Yes' or 'No':
   ** Provide feeback to the user with confirmation of their choice
   ** Design, behavior, and messaging are up to you
-* Modify anything and everything you think should be different/improved
+  ** Plug-ins, libraries, and frameworks are permitted
+* Modify anything and everything you think should be different/improved. Document the reasoning for your changes in the Notes section.
 
 
 # Workflow
