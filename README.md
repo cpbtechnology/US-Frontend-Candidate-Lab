@@ -1,4 +1,4 @@
-### --- CP+B Candidate Lab --- ###
+### CP+B Candidate Lab ###
 
 Congratulations! If you've made it this far, we like you already.
 This lab is an opportunity for us to have a conversation about practices, conventions, and workflow.
