@@ -118,7 +118,7 @@ textarea {
 
 .removed {
     display: none !important;
-    visibility: removed;
+    visibility: hidden;
 }
 
 /*
@@ -156,7 +156,7 @@ textarea {
  */
 
 .invisible {
-    visibility: removed;
+    visibility: hidden;
 }
 
 /*
