@@ -90,26 +90,6 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==========================================================================
    Helper classes
    ========================================================================== */
 
@@ -145,7 +125,7 @@ textarea {
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
 
-.removed1 {
+.hidden {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -157,12 +137,12 @@ textarea {
 }
 
 /*
- * Extends the .removed1 class to allow the element to be focusable
+ * Extends the .hidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
 
-.removed1.focusable:active,
-.removed1.focusable:focus {
+.hidden.focusable:active,
+.hidden.focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -209,6 +189,14 @@ textarea {
 .clearfix {
     *zoom: 1;
 }
+
+/* ==========================================================================
+   Default Screen styles.
+   ========================================================================== */
+
+
+
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
