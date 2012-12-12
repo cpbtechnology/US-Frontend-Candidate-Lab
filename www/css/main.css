@@ -53,7 +53,7 @@ hr {
 }
 
 /*
- * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ * Remove the gap between images and the bottom of theimage-replace containers: h5bp.com/i/440
  */
 
 img {
@@ -117,15 +117,15 @@ textarea {
  * Image replacement
  */
 
-.ir {
+.image-replace {
     background-color: transparent;
     border: 0;
-    overflow: hidden;
+    overflow: removed;
     /* IE 6/7 fallback */
     *text-indent: -9999px;
 }
 
-.ir:before {
+.image-replace:before {
     content: "";
     display: block;
     width: 0;
@@ -136,33 +136,33 @@ textarea {
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
 
-.hidden {
+.removed {
     display: none !important;
-    visibility: hidden;
+    visibility: removed;
 }
 
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
 
-.visuallyhidden {
+.removed1 {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
     margin: -1px;
-    overflow: hidden;
+    overflow: removed;
     padding: 0;
     position: absolute;
     width: 1px;
 }
 
 /*
- * Extends the .visuallyhidden class to allow the element to be focusable
+ * Extends the .removed1 class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.removed1.focusable:active,
+.removed1.focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -176,7 +176,7 @@ textarea {
  */
 
 .invisible {
-    visibility: hidden;
+    visibility: removed;
 }
 
 /*
@@ -212,8 +212,8 @@ textarea {
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
-   Theses examples override the primary ('mobile first') styles.
-   Modify as content requires.
+   Theses examples override the primary ('mobile fimage-replacest') styles.
+   Modify as content requimage-replacees.
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
@@ -227,7 +227,7 @@ textarea {
 
 /* ==========================================================================
    Print styles.
-   Inlined to avoid required HTTP connection: h5bp.com/r
+   Inlined to avoid requimage-replaceed HTTP connection: h5bp.com/r
    ========================================================================== */
 
 @media print {
@@ -255,7 +255,7 @@ textarea {
      * Don't show links for images, or javascript/internal links
      */
 
-    .ir a:after,
+    .image-replace a:after,
     a[href^="javascript:"]:after,
     a[href^="#"]:after {
         content: "";
