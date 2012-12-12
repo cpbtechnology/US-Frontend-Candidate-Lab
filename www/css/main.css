@@ -194,8 +194,57 @@ textarea {
    Default Screen styles.
    ========================================================================== */
 
+body { 
+    background: url(../img/woodgrain.jpg) repeat; 
+    font-family: "Helvetica", "Arial", sans-serif;
+    height: 600px; 
+    width: 888px; 
+}
 
+img { 
+    position: absolute; 
+}
+#title {
+    left: 17px;
+    top: 25px;
+    z-index: 2;
+}
+#description {
+    left: 259px;
+    top: 67px;
+    z-index: 1;
+}
+#date {
+    left: 525px;
+    top: 9px;
+}
 
+#invitation {
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    padding: 27px 129px 29px 29px;
+    position: absolute;
+    width: 579px;
+    z-index: 3;
+}
+#invitation h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+#invitation a {
+    background-color: #393939;
+    color: #fff;
+    border-radius: 3px;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+#invitation a:hover {
+    background-color: #f78b36;
+}
 
 
 /* ==========================================================================
