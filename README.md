@@ -29,7 +29,7 @@ Please use this as a way to communicate through your craft.
 
 Please make atomic commits (commit often) as you progress. 
 Be sure to provide useful commit messages to illustrate milestones and workflow.
-
+Submit a pull request when you are finished and satisfied with your work.
 
 # Notes
 
